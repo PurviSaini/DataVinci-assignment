@@ -1,0 +1,29 @@
+* {
+  font-family: "Gotham";
+}
+
+.gotham-regular {
+  font-weight: normal;
+}
+
+.gotham-bold {
+  font-weight: bold;
+}
+
+.gotham-medium {
+  font-weight: 500;
+}
+
+#small-device {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #small-device {
+    display: block;
+  }
+
+  #large-device {
+    display: none;
+  }
+}
